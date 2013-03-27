@@ -1,0 +1,108 @@
+<html id="all">
+
+<div class="container_12">
+
+  <head id="head">
+	<meta name="keyword" content="profile nccu nccu1012 web_programming assignment">
+	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.4.1/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="960gs.css">
+  </head>
+
+<body id="body">
+
+	<header id="header" class="grid_12">
+		<h1 class="grid_8 alpha">my profile</h1>
+	</header>
+	
+<!--the following is "navigator" part-->
+
+    <nav class="grid_12">
+        <ul>
+            <li class="nav_bottom"><a href="index.html">Home</a></li>
+            <li class="nav_bottom"><a href="http://www.flickr.com/photos/25819752@N07/sets/">flickr</a></li>
+            <li class="nav_bottom"><a href="form.html">Form</a></li>
+            <li class="nav_bottom"><a href="http://www.facebook.com/profile.php?id=100000071292285">Facebook</a></li>
+        </ul>
+    </nav>
+	
+<!--navigator end-->
+
+<!--
+
+<div class="profile">
+<article>
+<h1>About Me</h1>
+<span id="profile_pic"><img src="http://i.imgur.com/ZmdkmAa.jpg" width="100px"><span>
+<p>劉又韶</p>
+<p>新聞二甲</p>
+<p>Tel:0958159113</p>
+<p>Mail:100401009@nccu.edu.tw</p></article>
+</div>
+-->
+
+<!--following is form-->
+<div>
+	<!--表單送至的地方-->
+	
+	<form action="https://docs.google.com/spreadsheet/formResponse? formkey=dDhFdFBITDc2X3FaUGNPaGRWb29mNlE6MQ&ifq" method="post">
+	
+	<!--學號-->
+	
+		<label for="identity">hidden_id</label><br>
+		<input type="text" name="entry.0.single" id="identity" value="your_id">
+	<br>
+
+	<!--性別的選項表單-->
+		<p>Your Gender?</p>
+		<input type="radio" name="entry.1.group" id="genderQ1" value="boy">
+		<label for="genderQ1">boy</label>
+		<input type="radio" name="entry.1.group" id="genderQ2" value="girl">
+		<label for="genderQ2">girl</label>
+		<br>
+		<br>
+
+	<!--食物選單-->
+		<p>Your Favorite Foods?</p>
+		<input type="checkbox" name="entry.2.group" id="FF1" value="Apple">
+		<label for="FF1">Apple</label>
+		<input type="checkbox" name="entry.2.group" id="FF2" value="Banana">
+		<label for="FF1">Banana</label>
+		<input type="checkbox" name="entry.2.group" id="FF3" value="Lemon">
+		<label for="FF1">Lemon</label>
+		<input type="checkbox" name="entry.2.group" id="FF4" value="Watermelon">
+		<label for="FF1">Watermelon</label>
+		<br>
+		<br>
+
+	<!--人際關係選單-->
+		<p>Relationship</p>
+		<select name="entry.3.group">
+  			<option>Single</option>
+  			<option>Dating</option>
+  			<option>Married</option>
+  			<option>Hard to explain</option>
+		</select>
+		<br>
+		<br>
+
+	<!--電子郵件填入框-->
+		<p>Email</p>
+		<input type="email" name="entry.4.group" value="email" size="40">
+		<br>
+		<br>
+
+	<!--回應欄-->
+		<p>Comments</p>
+		<textarea name="entry.5.single" cols="50" rows="5">在此輸入您的回應</textarea>
+		<br>
+		<br>
+		<input type="submit" name="submit" value="送出">
+		<br>
+
+		</form>
+</div>
+
+</body>
+</div>
+</html>

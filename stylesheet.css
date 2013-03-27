@@ -1,0 +1,120 @@
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/reset.css);
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/960.css);
+@import url(http://cs.nccu.edu.tw/~jonesyu/960gs/code/css/text.css);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+header{
+	display: inline-block;
+	margin: 15px 0px 5px 0px;
+	background-image: url(http://i.imgur.com/SL3EPmo.png);
+	width:940px;
+	height:70px;
+	text-indent:-9999px; /**將文字往旁邊推到遠方**/
+	position: relative;
+}
+.nav_bottom{
+	display: inline-block;
+	position:relative;
+	float:left;
+	
+	height:20px;
+	margin:10px;
+	text-align:center;
+	
+	border:solid #1E88A8 1px;
+	border-top:0px;
+	border-right:0px;
+	border-left:0px; 
+	
+/**	background-color: #FCFAF2;
+	border-radius: 90px;**/ 
+}
+nav{
+	display:inline-block;
+	position: relative;
+	width:945px;
+	height:30px;
+	top: 5px;
+	border:solid grey 1px;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	display:inline-block;
+	font-size:30px;
+	font-family: 'Oswald', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+#profile_text{
+	display:inline-block;
+	line-height:100%;
+	position: relative; 
+}
+
+#profile_pic{
+	display:inline-block;
+	float:left;
+	width:100px;
+	height:94px;
+	margin:10px;
+	border:solid #9E7A7A 1px;	
+}
+
+#page{
+	display:inline;
+	position:absolute;
+	width:1200px;
+	height:800px;
+	top:170px;
+}
+
+.article{
+	display: inline-block;
+	width: 250px;
+	height: 300px;
+	position: relative;
+	margin-right:60px;
+	top:120px;
+	}
+
+/**article box transition start**/
+
+.article_text{
+	display:block;
+	position:absolute;
+	margin:20px 5px 0px 0px;
+	padding:15px;
+	background-color: rgb(255, 255, 255);
+   
+    text-align: left;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .5s;
+    opacity: .0;
+  }
+
+.article_text:hover{
+    opacity: 0.85;
+  }
+  
+/**article box transition end**/
+
+
+
+#space{
+	display:block;
+	width:1200px;
+	height:80px;	
+}
+
+
+a{
+text-decoration:none;
+color:black;
+}
+
+a:hover{
+color:#1E88A8;
+}
