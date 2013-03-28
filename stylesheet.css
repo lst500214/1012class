@@ -100,7 +100,7 @@ h2 {
 	display: inline-block;
 	position: relative;
 	left: 30px;
-	top:20px;
+	top:30px;
 	margin-bottom: 100px;
 
 }
@@ -148,6 +148,15 @@ h2 {
 	display: inline-block;
 	position: relative;
 	top:550px;
+	margin-bottom: 50px;
+	width: 960px;
+	height:180px; 
+}
+
+#footer1{
+	display: inline-block;
+	position: relative;
+	top:10px;
 	margin-bottom: 50px;
 	width: 960px;
 	height:180px; 
