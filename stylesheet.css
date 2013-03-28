@@ -89,7 +89,7 @@ h2 {
 }
 
 #page{
-	display:inline;
+	display:inline-block;
 	position:absolute;
 	width:960px;
 	height:700px;
