@@ -48,25 +48,20 @@ h2,h1 {
 	
 }
 
+#profile_text{
+	display:inline-block;
+	line-height:120%;
+	position: relative; 
+}
+
 #profile_pic{
 	display:inline-block;
 	float:left;
 	width:100px;
 	height:94px;
+	margin:10px;
 	border:solid #9E7A7A 1px;
-	position:relative;
-	top:15px;	
-	left:20px;
-}
-
-#profile{
-	display:inline-block;
-	position:relative;
-	left:18px;
-	width:180px;
-	float:left;
-	top:16px;
-	left:25px;
+	position: absolute;	
 }
 
 #page{
