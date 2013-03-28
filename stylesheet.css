@@ -89,11 +89,11 @@ h2 {
 }
 
 #page{
-	display:inline-block;
+	display:block;
 	position:absolute;
 	width:960px;
 	height:700px;
-	margin-top: 440px;
+	top: 440px;
 }
 
 #formbox{
@@ -110,7 +110,7 @@ h2 {
 	height: 300px;
 	position: relative;
 	margin-right:60px;
-	margin-top:40px; 
+	margin-top:60px; 
 	}
 
 /**article box transition start**/
