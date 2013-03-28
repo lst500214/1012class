@@ -42,6 +42,7 @@ nav{
 	margin-bottom: 20px;
 }
 
+
 h2 {
 	display:inline-block;
 	font-size:30px;
@@ -50,7 +51,7 @@ h2 {
 
 #profile_text{
 	display:inline-block;
-	line-height:100%;
+	line-height:120%;
 	position: relative; 
 }
 
@@ -60,15 +61,16 @@ h2 {
 	width:100px;
 	height:94px;
 	margin:10px;
-	border:solid #9E7A7A 1px;	
+	border:solid #9E7A7A 1px;
+	position: absolute;	
 }
 
 #page{
-	display:inline;
+	display:inline-inline;
 	position:absolute;
-	width:1200px;
+	width:950px;
 	height:800px;
-	top:170px;
+	top:200px;
 }
 
 .article{
@@ -77,8 +79,15 @@ h2 {
 	height: 300px;
 	position: relative;
 	margin-right:60px;
+	}
+
+.article_pic{
+	display: inline-block;
+	position: absolute;
+	margin-right:60px;
 	top:120px;
 	}
+
 
 /**article box transition start**/
 
