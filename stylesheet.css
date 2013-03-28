@@ -28,13 +28,15 @@ header{
 	margin:10px;
 	text-align:center;
 	
-	border:solid #1E88A8 1px;
+/**	background-color: #FCFAF2;
+	border-radius: 90px;**/ 
+}
+
+#nav_bottom:hover{
+	border:solid #A96360 1px;
 	border-top:0px;
 	border-right:0px;
 	border-left:0px; 
-	
-/**	background-color: #FCFAF2;
-	border-radius: 90px;**/ 
 }
 nav{
 	display:inline-block;
@@ -130,20 +132,27 @@ h2 {
   
 /**article box transition end**/
 
-
-
 #space{
 	display:block;
 	width:1200px;
 	height:80px;	
 }
 
+/*Anchor Pseudo-classes*/
 
-a{
-text-decoration:none;
-color:black;
+a:link{
+	text-decoration:none;
+	color:black;
 }
 
 a:hover{
-color:#1E88A8;
+	color:#A96360;
+}
+
+a:visited{
+	color: black;	
+}
+
+a:active{
+	color:#A96360; 
 }
