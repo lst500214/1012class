@@ -4,12 +4,18 @@
 @import url(http://fonts.googleapis.com/css?family=Sacramento);
 @import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
 
+html{
+	background: url(wall4_@2X.png);
+	background-repeat: repeat;
+}
 header{
 	display: inline-block;
 	margin: 15px 0px 5px 0px;
-	background-image: url(http://i.imgur.com/SL3EPmo.png);
-	width:940px;
-	height:70px;
+	background-image: url(banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width:417px;
+	height:250px;
 	text-indent:-9999px; /**將文字往旁邊推到遠方**/
 	position: relative;
 }
@@ -44,12 +50,18 @@ nav{
 	font-family: 'Julius Sans One','Sacramento', 'cursive', 'Arial', 'Helvetica', 'sans-serif'; 
 }
 
-h2,h1 {
+h1 {
 	display:inline-block;
-	font-size:20px;
+	font-size:18px;
 	font-family:'Julius Sans One','Sacramento', 'Arial', 'Helvetica', 'sans-serif';
 	line-height: 100%;
-	
+}
+
+h2 {
+	display:inline-block;
+	font-size:16px;
+	font-family:'Julius Sans One','Sacramento', 'Arial', 'Helvetica', 'sans-serif';
+	line-height: 100%;	
 }
 
 #profile_pic{
@@ -59,8 +71,9 @@ h2,h1 {
 	height:94px;
 	border:solid #9E7A7A 1px;
 	position:relative;
-	top:20px;	
+	top:30px;	
 	left:20px;
+	margin-right: 5px;
 }
 
 #profile{
@@ -76,10 +89,17 @@ h2,h1 {
 	display:inline;
 	position:absolute;
 	width:960px;
-	height:800px;
-	margin-top: 280px;
+	height:1000px;
+	margin-top: 440px;
 }
 
+#formbox{
+	display: inline-block;
+	position: relative;
+	left: 20px;
+	top:20px;
+
+}
 .article{
 	display: inline-block;
 	width: 250px;
