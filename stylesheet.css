@@ -12,7 +12,7 @@ header{
 	text-indent:-9999px; /**將文字往旁邊推到遠方**/
 	position: relative;
 }
-.nav_bottom{
+#nav_bottom{
 	display: inline-block;
 	position:relative;
 	float:left;
@@ -39,20 +39,13 @@ nav{
 	border-top:0px;
 	border-left:0px;
 	border-right:0px;
-	margin-bottom: 20px;
 }
 
-
-h2 {
+h2,h1 {
 	display:inline-block;
 	font-size:30px;
-	font-family: 'Oswald', 'Arial', 'Helvetica', 'sans-serif';
-}
-
-#profile_text{
-	display:inline-block;
-	line-height:120%;
-	position: relative; 
+	font-family:'Arial', 'Helvetica', 'sans-serif';
+	
 }
 
 #profile_pic{
@@ -60,41 +53,45 @@ h2 {
 	float:left;
 	width:100px;
 	height:94px;
-	margin:10px;
 	border:solid #9E7A7A 1px;
-	position: absolute;	
+	position:relative;
+	top:15px;	
+	left:20px;
+}
+
+#profile{
+	display:inline-block;
+	position:relative;
+	left:18px;
+	width:180px;
+	float:left;
+	top:16px;
+	left:25px;
 }
 
 #page{
-	display:inline-inline;
+	display:inline;
 	position:absolute;
-	width:950px;
-	height:800px;
-	top:200px;
+	width:1200px;
+	height:1200px;
+	top:110px;
 }
 
-.article{
+.article_pic
+{
 	display: inline-block;
 	width: 250px;
 	height: 300px;
 	position: relative;
 	margin-right:60px;
+	margin-top:150px;
 	}
-
-.article_pic{
-	display: inline-block;
-	position: absolute;
-	margin-right:60px;
-	top:120px;
-	}
-
-
 /**article box transition start**/
 
 .article_text{
 	display:block;
 	position:absolute;
-	margin:20px 5px 0px 0px;
+	margin:40px 5px 0px 0px;
 	padding:15px;
 	background-color: rgb(255, 255, 255);
    
